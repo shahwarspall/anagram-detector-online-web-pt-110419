@@ -1,7 +1,7 @@
 require "pry"
 class Anagram
   
-  attr_accessor :word 
+  attr_accessor :whole_word
   @@all =[]
   
   def initialize(whole_word)
