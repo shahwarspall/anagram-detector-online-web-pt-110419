@@ -12,10 +12,9 @@ class Anagram
   
   def match(words)
     
-    words.find_all do |word|
-      
-     if word.split(",").sort == self.whole_word.split(",").sort
-       word
+    words.find_all do |word| 
+      if word.split("").sort == self.word_to_analyze.split("").sort 
+        word 
       
     #binding.pry 
     
