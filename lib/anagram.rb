@@ -13,7 +13,7 @@ class Anagram
   def match(words)
     
     words.find_all do |word| 
-      if word.split("").sort == self.word_to_analyze.split("").sort 
+      if word.split("").sort == self.whole_world.split("").sort 
         word 
         
       end 
